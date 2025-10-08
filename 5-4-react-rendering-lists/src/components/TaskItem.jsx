@@ -9,6 +9,7 @@ return (
 <input type="checkbox" />
 
 
+
 {!task.isDone && <DueBadge dueDate={task.dueDate} />}
 
 
